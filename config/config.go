@@ -26,6 +26,11 @@ const PortSSH = 22
 const MaxMsgCount = 100
 const SSHHeartbeatTime = 10 * 60
 
+const ValidComment = 0   //评论状态：有效
+const InvalidComment = 1 //评论状态：取消
+const DateTime = "2018-5-012 17:34:12"
+
+
 const IsLike = 0     //点赞的状态
 const Unlike = 1     //取消赞的状态
 const LikeAction = 1 //点赞的行为
